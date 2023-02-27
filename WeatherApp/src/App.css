@@ -15,6 +15,11 @@
   gap: 20px;
 }
 
+.title {
+  color: white;
+  font-size: 25px;
+}
+
 .inputs {
   display: flex;
   flex-direction: row;
