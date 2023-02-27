@@ -26,6 +26,7 @@ function App() {
 
   return (
     <div className='App'>
+      <p className="title">Weather App</p>
       <div className='inputs'>
         <input
           type='text'
@@ -36,7 +37,7 @@ function App() {
       </div>
 
       {typeof weatherInfo === "undefined" ? (
-        <div className='condition'>Empty</div>
+        <div></div>
       ) : (
         <div className='condition'>
           <div className='condition group_one'>
