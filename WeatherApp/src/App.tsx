@@ -39,7 +39,7 @@ function App() {
     });
   }, [weatherInfo]);
 
-  const apiKey = "a47381c6706fff1f8b5b1ba8ed43a59f";
+  const apiKey = "";
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setCityName(e.target.value);
