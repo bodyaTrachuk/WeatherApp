@@ -59,11 +59,13 @@
 .condition {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
+/*   justify-content: start;
+  align-items: start; */
   gap: 10px;
   color: white;
   /* font-size: 20px; */
+  width: 206px;
+  height: 243px;
 }
 
 .condition .group_one {
